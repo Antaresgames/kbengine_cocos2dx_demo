@@ -41,6 +41,7 @@ sources     : https://github.com/kbengine/kbengine/
       unity3d     : https://github.com/kbengine/kbengine_unity3d_warring
       ogre        : https://github.com/kbengine/kbengine_ogre_demo
       html5       : https://github.com/kbengine/kbengine_html5_demo
+      cocos2dx    : https://github.com/kbengine/kbengine_cocos2dx_demo
       	
 
 ## KBEngine-cocos2dx 
@@ -53,7 +54,16 @@ sources     : https://github.com/kbengine/kbengine/
    
    2014-07-02 create submodule and moved here :  https://github.com/cnsoft/kbengine_cocos2dx_demo/ 
    
+   2014-08-03 next branch: add in game chat kit with seemless integratation. e.g: player broad msg to others. change single player game to multiply player internal-chat game . like a mmorpg. chat in some channel. 工会.好友.交易.组队.
    
  ![screenshots1](https://raw.githubusercontent.com/cnsoft/kbengine-cocos2dx/cocos2dx-cnsoft/kbe/src/client/cocos2dx/snapshots/u_cocos2d_chat.PNG)
+ 
+   2014-08-23 fellow thie url: https://github.com/cnsoft/kbengine-cocos2dx/commit/10f00267523e21fb4c971c3a6dc51b8a860444ab you need this patch for server side. it will enable chat demo feature.  
+   
+   until now, you can extend your system according this demo. e.g: define more system and implemented it in server side and client side. that's the start kit. next update, i want to create a more powerful demo.  
+   
+##Q&A
+	This demo is used cocos2dx 2.2.3. cocos2dx files are not stored in this repository. you should prepare it locally. 
+	After configure cocos2dx. place the kbedemo folder into Projects folder. open the kbedemo.sln and  can build it yourself.
 
   
